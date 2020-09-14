@@ -1,10 +1,6 @@
 import React from 'react';
-import weapons from "../App.js"
 
 class Player extends React.Component {
-  constructor() {
-    super();
-  }
 
   render() {
     return (

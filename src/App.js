@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Computer from './components/Computer'
 import Score from './components/Score'
 import Player from './components/Player'
 
@@ -76,6 +75,7 @@ class App extends React.Component {
             Rock Paper Scissor
           </header>
           <input type="checkbox" onClick={this.rigTheGame} className="rigIt"/>Rig the game
+
           <Score
             wins={this.state.wins}
             losses={this.state.losses}
@@ -95,9 +95,6 @@ class App extends React.Component {
       </div>
     )
   }
-
-
-
 }
 
 export default App;

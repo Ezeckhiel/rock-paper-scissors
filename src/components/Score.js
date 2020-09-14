@@ -5,8 +5,6 @@ class Score extends React.Component {
     return (
       <div className="score">
         <p>The score is </p>
-
-
         <div className='game-info'>
           <div className='game-wins'>
             Wins: {' '}

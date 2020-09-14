@@ -56,11 +56,27 @@ img {
 .hide {
   animation: fadeOut ease 0.7s;
   opacity: 0;
+  visibility: hidden;
 }
 
 .show {
   animation: fadeIn ease 0.7s;
   opacity: 1;
+}
+
+.wins-color {
+  color: #22a007;
+  font-weight: bold;
+}
+
+.draws-color {
+  color: #50614d;
+  font-weight: bold;
+}
+
+.losses-color {
+  color: #9c0711;
+  font-weight: bold;
 }
 
 @keyframes fadeOut {
